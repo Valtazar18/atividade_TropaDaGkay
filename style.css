@@ -1,0 +1,35 @@
+@import url(styles/header.css);
+:root{
+--cor-de-fundo: #9949B4;
+--cor-cabecalho: #FFFFFF;
+}
+body{
+background-color: var(--cor-de-fundo);
+margin: 0;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min- wdth: 820 px) {
+    . container_titulo, .container__titulo--negrito {
+        font-size: 30 px;
+}
+
+,container_titulo {
+    font-weight: 400;
+    display:block;
+}
+}
+@media screen and (min-width: 1024px) {
+    .container__frase {
+        padding-left:5em;
+        font-size:20px;
+        display:block;
+    }
+}
