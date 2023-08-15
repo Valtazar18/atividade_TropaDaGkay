@@ -8,20 +8,12 @@ background-color: var(--cor-de-fundo);
 margin: 0;
 }
 
-
-
-
-
-
-
-
-
-@media screen and (min- wdth: 820 px) {
-    . container_titulo, .container__titulo--negrito {
+@media screen and (min-wdth: 820 px) {
+    .container_titulo, .container__titulo--negrito {
         font-size: 30 px;
 }
 
-,container_titulo {
+.container_titulo {
     font-weight: 400;
     display:block;
 }
