@@ -8,7 +8,7 @@ background-color: var(--cor-de-fundo);
 margin: 0;
 }
 
-@media screen and (min-wdth: 820 px) {
+@media screen and (min-wdth: 820px) {
     .container_titulo, .container__titulo--negrito {
         font-size: 30 px;
 }
